@@ -1,0 +1,39 @@
+{
+  "station": "Центральна метеостанція №1",
+  "location": "Львів",
+  "sensors": [
+    {
+      "id": "sensor-01",
+      "type": "temperature",
+      "model": "DHT22",
+      "specs": {
+        "unit": "°C",
+        "accuracy": 0.5,
+        "range": "-40 to +80"
+      },
+      "readings": [21.5, 22.0, null, 23.1, 20.8, null, 24.0]
+    },
+    {
+      "id": "sensor-02",
+      "type": "humidity",
+      "model": "AM2302",
+      "specs": {
+        "unit": "%",
+        "accuracy": 2.0,
+        "range": "0 to 100"
+      },
+      "readings": [55.0, 58.2, 60.1, null, 54.3]
+    },
+    {
+      "id": "sensor-03",
+      "type": "pressure",
+      "model": "BMP280",
+      "specs": {
+        "unit": "hPa",
+        "accuracy": 1.0,
+        "range": "300 to 1100"
+      },
+      "readings": [1013.25, 1012.8, 1014.1, 1015.0]
+    }
+  ]
+}
